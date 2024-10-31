@@ -12,7 +12,7 @@
       <p>
         Derrota a todos los enemigos y supera los desafíos para obtener la victoria, pero recuerda, perderás si tu barra de vida llega a cero.
       </p>
-      <button class="learn-more">Explorar Más</button>
+      <button class="learn-more" @click="goToVideos">Explorar Más</button>
     </div>
     <div class="about-image">
       <img src="../assets/portada_dragon.png" alt="Dragon Mascot" />
@@ -23,6 +23,11 @@
 <script>
 export default {
   name: 'AboutDragon',
+  methods: {
+    goToVideos() {
+      this.$router.push('/videos-section');
+    }
+  }
 };
 </script>
 
