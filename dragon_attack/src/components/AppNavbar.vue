@@ -2,18 +2,19 @@
   <nav class="navbar">
     <div class="section-links">
       <ul v-if="currentProject === 'dragon'">
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">Acerca de</a></li>
         <li><a href="#videos">Videos</a></li>
-        <li><a href="#process">Process</a></li>
-        <li><a href="#team">Our Team</a></li>
+        <li><a href="#process">Proceso</a></li>
+        <li><a href="#team">Nuestro Equipo</a></li>
       </ul>
       <ul v-else-if="currentProject === 'math'">
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#demos">Demos</a></li>
-        <li><a href="#learning-process">Learning Process</a></li>
-        <li><a href="#team">Our Team</a></li>
+        <li><a href="#overview">Visión General</a></li>
+        <li><a href="#demos">Demostraciones</a></li>
+        <li><a href="#learning-process">Proceso de Aprendizaje</a></li>
+        <li><a href="#team">Nuestro Equipo</a></li>
       </ul>
     </div>
+
     <div class="project-switch">
       <button @click="goToDragonAttack">DragonAttack</button>
       <button @click="goToMathAdventure">MathAdventure</button>

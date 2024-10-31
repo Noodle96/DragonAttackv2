@@ -21,9 +21,9 @@ export default {
     return {
       teamMembers: [
         { name: 'Gabriel P.', role: 'Desarrollador', photo: require('@/assets/gabriel.jpg') },
-        { name: 'Savannah P.', role: 'Diseñadora', photo: require('@/assets/gabriel.jpg') },
-        { name: 'Sreya G.', role: 'Diseñadora', photo: require('@/assets/gabriel.jpg') },
-        { name: 'Rhett O.', role: 'Desarrollador', photo: require('@/assets/gabriel.jpg') },
+        { name: 'Edson B.', role: 'Diseñador', photo: require('@/assets/edson.jpeg') },
+        { name: 'Jorge T.', role: 'Desarrollador', photo: require('@/assets/edson.jpeg') },
+        { name: 'Rhett O.', role: 'Diseñadora', photo: require('@/assets/edson.jpeg') },
       ],
     };
   },
