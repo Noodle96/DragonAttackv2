@@ -1,0 +1,72 @@
+/* src/assets/styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fff4;
+    color: #f8fcfc;
+  }
+  
+  h1, h2, h3 {
+    color: #2f4f4f;
+    font-weight: 600;
+  }
+  
+  a {
+    color: #006400;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Clases de utilidad */
+  .text-center {
+    text-align: center;
+  }
+  
+  .margin-top {
+    margin-top: 1em;
+  }
+  
+  .margin-bottom {
+    margin-bottom: 1em;
+  }
+  
+  /* Otros estilos comunes que se repiten en varios componentes */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .button {
+    background-color: #006400;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #004d33;
+  }
+  
+  /* styles.css o en App.vue */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
